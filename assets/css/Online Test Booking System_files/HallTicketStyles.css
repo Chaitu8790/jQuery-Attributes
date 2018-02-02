@@ -1,0 +1,167 @@
+﻿body
+{
+	font-family:Calibri;
+}
+.mainDiv
+{
+	width:90%;
+	border-top:1px solid #000000;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+}
+.mainDivBottom
+{
+	border:1px solid #000000;
+	width:90%;
+}
+.eHallTicket
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+.eHallTicketNote
+{
+	font-size:15px;
+}
+.barcodeImage
+{
+	float: right;
+	padding-right: 0px;
+}
+.testDetails
+{
+	width: 62%;
+	padding-left: 100px;
+}
+.testDetailstdLeft
+{
+	width: 35%;
+}
+.testDetailstdRight
+{
+	width: 65%;
+}
+.testDetailsSpan
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+.eventDetails
+{
+	width: 65%;
+	padding-left: 100px;
+}
+.eventDetailstdLeft
+{
+	width: 35%;
+}
+.eventDetailstdRight
+{
+	width: 65%;
+}
+.eventDetailsSpan
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+.inst
+{
+	font-size: 8pt;
+}
+.instol
+{
+	margin-top:10px;
+	margin-bottom:0px;
+}
+.instol li
+{
+	font-size:8pt;
+	padding-right:10px;
+}
+.signInst
+{
+	font-size: 9pt;
+}
+.candidatephoto
+{
+	padding-left: 75px; padding-top: 25px;
+}
+.topDiv
+{
+	width:970px;
+	margin:0 auto;
+}
+/************* Messages Style **************/
+.error_msg {
+	padding:6px 6px 6px 42px;
+	background:url(../images/icons/error_icn.gif) no-repeat 9px 3px #ffefed;
+	border:1px solid #7b0e00;
+	color:#7b0e00;
+	font-weight:bold;
+	/*margin-bottom:10px;*/
+}
+.success_msg {
+	padding:6px 6px 6px 42px;
+	background:url(../images/icons/suc_icn.gif) no-repeat 9px 3px #f6ffc6;
+	border:1px solid #5B710C;
+	color:#5B710C;
+	font-weight:bold;
+	/*margin-bottom:10px;*/
+}
+.info_msg {
+	padding:6px 6px 6px 42px;
+	background:url(../images/icons/info_icn.gif) no-repeat 9px 3px #eef6ff;
+	border:1px solid #18347d;
+	color:#18347d;
+	font-weight:bold;
+	/*margin-bottom:10px;*/
+}
+.FS_messageClosed
+{
+	left: -30000px;
+	position: absolute;
+	top: -300000px;
+}
+.FS_messageOpen
+{
+	display: block;
+	width: 100%;
+}
+.FS_messageBox
+{
+	/*border-top: #9A141D 1px solid;
+	border-bottom: #9A141D 1px solid;*/
+	font-size: 1.1em;
+	width: 100%;
+	/*background-color: #FEF5ED;*/
+	padding: 5px 0px 3px 0px;
+	display: block;
+}
+.FS_messageBox a
+{
+	padding: 0px 3px 0px 3px;
+	border: #9A141D 1px solid;
+	float: right;
+	margin-right: 10px;
+	margin-top:6px;
+}
+.FS_messageBox img
+{
+	float: left;
+	margin-left: 10px;
+}
+.topDivPdf
+{
+	width:970px;
+	margin-left:65px;
+	margin-top:90px;
+}
+.footer
+{
+	margin-top:5px;
+	border-top: 4px solid #BD0B5C;
+	font-size:10px;
+	font-family:Arial,Helvetica,sans-serif;
+	color:#808080;
+}
+/************* End of Messages Style **************/

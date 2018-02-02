@@ -1,0 +1,158 @@
+
+
+<head>
+   <title>Slider</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- jQuery,BS,Plugins and libs -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <!-- CSS -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- jQuery Script -->
+   <script src="assets/js/script.js"></script>
+</head>
+<body>
+   <div class="col-md-12">
+      <!-- Nav Bar -->
+      <nav class="navbar">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand"> <img src="https://www.indiatoursservices.in/images/logo-india.png" style="width:130px;height:50px;margin-top:-10px;margin-left:-20px;"></a>
+            </div>
+            <ul class="nav navbar-nav" style="float:center;">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">Tours</a></li>
+               <li><a href="#">Destinations</a></li>
+               <li><a href="#">Hotels</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Corporate Travel</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+         </div>
+      </nav>
+   </div>
+   <div class="col-lg-12">
+      <!-- Image Slider -->
+      <div class="slider">
+         <ul>
+            <li style="position: relative;">
+               <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/1.jpg" />
+               <div class="bottomleft">
+                  Welcome To ITS <br> 
+                  <p>The right place for your travel</p>
+               </div>
+            </li>
+            <li>
+               <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/2.jpg" />
+               <div class="content"><a href="http://imageslidermaker.com"></a></div>
+            </li>
+            <li>
+               <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/3.jpg" />
+               <div class="content"><a href="http://imageslidermaker.com">Explore Places</a></div>
+            </li>
+         </ul>
+         <button class="prev">Prev</button>
+         <button class="next">Next</button>
+      </div>
+   </div>
+   <div class="containers">
+      <h3>Latest Places to Travel</h3>
+      <!-- jQuery Tabs -->
+      <ul class="tabs">
+         <li class="tab-link current" data-tab="tab-1">Forests</li>
+         <li class="tab-link" data-tab="tab-2">Snowfall</li>
+         <li class="tab-link" data-tab="tab-3">Rivers</li>
+         <li class="tab-link" data-tab="tab-4">WaterFalls</li>
+      </ul>
+      <div id="tab-1" class="tab-content current">
+         <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/4.jpg">
+         A view of Loch Tummel from Queen&#039;s View, Perthshire, Scotland
+      </div>
+      <div id="tab-2" class="tab-content">
+         <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/5.jpg">
+         <p> Cross-country skiers make their way at the Fichtelberg mountain after the first snowfall near the eastern German town of Oberwiesenthal at the German-Czech border</p>
+      </div>
+      <div id="tab-3" class="tab-content">
+         <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/6.jpg">
+         <p>A family travels by canoe on the Maranon river in the Pacaya Samiria National Reserve in the Amazon jungle. The Pacaya Samiria National Reserve is located in Peru&#039;s Amazon region, 150 kilometres from Iquitos city. The reserve is the largest in Peru and the second largest in the Amazon region. The great size of the reserve assures that it will be ecologically and genetically representative of the region, with an abundance of virtually unchanged areas.</p>
+      </div>
+      <div id="tab-4" class="tab-content">
+         <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/7.jpg">
+         <p>Despite the cold wave that has hit Canada and North USA, people are flocking to see the Niagara Falls in all its frozen beauty. Take a look at current photos of the waterfalls th
+            at make for a scenic US-Canadian border..
+            The Niagara Falls have frozen over to create the ultimate icy delight for tourists
+         </p>
+      </div>
+      Type of Place
+      <input id="place" title="We ask for your Intrest only for statistical purposes." data-toggle="tooltip"  placeholder="Eg:Mountains(Tooltip)">
+   </div>
+   <div class="container">
+   </div>
+   <div>
+   </div>
+   <div class="Lightbox">
+      <h3 style="text-align: center">Recently Visited</h3>
+      <!-- Lightbox  -->
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2">
+         <a data-fancybox="gallery" href="http://10.90.90.102/Projects/jQuery2/assets/css/images/8.jpg"><img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/8.jpg" ></a>
+         <p>Kerala</p>
+      </div>
+      <div class="col-sm-2">
+         <a data-fancybox="gallery" href="http://10.90.90.102/Projects/jQuery2/assets/css/images/9.jpg" 
+            ">
+         <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/9.jpg"></a>
+         <p>SouthernAfrica</p>
+      </div>
+      <div class="col-sm-2">
+         <a data-fancybox="gallery" href="http://10.90.90.102/Projects/jQuery2/assets/css/images/10.jpg">
+         <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/10.jpg"></a>
+         <p>Ukraine</p>
+      </div>
+      <div class="col-sm-2">
+         <a data-fancybox="gallery" href="http://10.90.90.102/Projects/jQuery2/assets/css/images/11.jpg" >
+         <img src="http://10.90.90.102/Projects/jQuery2/assets/css/images/11.jpg"></a>
+         <p>Niagara Falls</p>
+      </div>
+   </div>
+   <br>
+   <!-- typeahead/autocomplete -->
+   <form>
+      <h3>Plan Your Travel Before 6 Months</h3>
+      Choose your Country
+      <input type="text" name="country" placeholder="Choose Country(typeahead)" id="inputid">
+      Please Enter your Email<input type="text" name="phonenum">
+      <br>
+      <br>
+      <div class="Rating" style="text-align: center;">
+         Please rate us So that We Serve Better<br>
+         <i class="glyphicon glyphicon-star star"></i>
+         <i class="glyphicon glyphicon-star star1"></i>
+         <i class="glyphicon glyphicon-star star2"></i>
+         <i class="glyphicon glyphicon-star star3"></i>
+         <i class="glyphicon glyphicon-star star4"></i>
+         <p></p>
+      </div>
+      <!-- Link to open the modal -->
+      <a class="btn" data-popup-open="popup-1" href="#">Submit</a>
+      <div class="popup" data-popup="popup-1">
+         <div class="popup-inner">
+            <h2>Wow! This is Awesome!</h2>
+            <p>Thank You for Response.</p>
+            <p><a data-popup-close="popup-1" href="#">Close</a></p>
+            <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+         </div>
+      </div>
+   </form>
+</body>
+</html>
+
